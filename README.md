@@ -68,7 +68,6 @@ mi_agente_estadistico/
 ├── prompts.py             # System Prompt y objetivo
 ├── requirements.txt       # Librerías necesarias
 ├── .env                   # Variables privadas
-├── .env.example           # Plantilla de variables
 ├── README.md
 └── output/                # Excel generados
 ```
@@ -171,7 +170,7 @@ streamlit run app_streamlit.py
 
 - Automatizar la localización de la nota de prensa.
 - Programar ejecuciones periódicas automáticas.
-- Incorporar nuevos indicadores del INE.
+- Incorporar nuevos indicadores del INE u otras fuentes estadísticas.
 - Generar informes PDF automáticos.
 - Desplegar el agente en la nube.
 
